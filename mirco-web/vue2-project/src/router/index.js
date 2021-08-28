@@ -5,6 +5,10 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/',
+    redirect: '/energy'
+  },
+  {
     path: '/energy',
     name: 'energy',
     component: () => import('../views/energy')

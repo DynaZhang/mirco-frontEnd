@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.scss'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 import grayArrow from '../../../../assets/gray-arrow.png'
 
